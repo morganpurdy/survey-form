@@ -4,45 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <title>My survey form</title>
-  
-  
-  
+
+
+
       <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
 
-  
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <div id="container">
 <h1 id="title">Feedback form</h1>
 <p id="description">Please leave any feedback or  constructive criticism on my code, portfolio site or general comments on my work. Thank you!</p>
 <hr>
 <form id="survey-form">
-  <label id="name-label"><p>Name:</p></label> 
+  <label id="name-label"><p>Name:</p></label>
   <input type = "text" placeholder = "Enter your name here"   id = "name" required/>
   <br>
-  <label id="email-label"><p>Email:</p></label> 
+  <label id="email-label"><p>Email:</p></label>
    <input type = "email" placeholder = "Enter your email here"       id = "email" required pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
   <br>
   <p>Can I reach out to you for further feedback?</p>
-  
+
     <label class="option"><input type="radio" checked name="confirm" value = "Yes"><p class="checkbox">Yes</p></label>
-  
+
   <label class="option"><input type="radio" name="confirm" value="No"><p class="checkbox">No</p></label>
   <br>
-  <label id="number-label"><p>How would you rate your own coding skill level:</p></label> 
+  <label id="number-label"><p>How would you rate your own coding skill level:</p></label>
    <input type = "number" placeholder = "0" id="number" min= "0" max= "10" required pattern = "[0-10]"/>
   <br>
-  <label id="number-label"><p>How would you rate my coding skill level:</p></label> 
+  <label id="number-label"><p>How would you rate my coding skill level:</p></label>
    <input type = "number" placeholder = "0" id="number" min= "0" max= "10" required pattern = "[0-10]"/>
   <br>
- 
+
   <label id="number-label"><p>What is your career postion?</p></label>
   <select name="experience" id="dropdown" required>
   <option value="Entry-level">Entry level</option>
@@ -54,7 +54,7 @@
   <input type="checkbox" value ="design" ><p class="checkbox">Design</p><br>
   <input type="checkbox" value ="Thoroughness"><p class="checkbox">Thoroughness</p><br>
   <input type="checkbox" value ="clean-code"><p class="checkbox">Clean code</p><br>
-  <input type="checkbox" value ="other"><p class="checkbox">Other,</p><label id="name-label"><p>please specify:</p></label> 
+  <input type="checkbox" value ="other"><p class="checkbox">Other,</p><label id="name-label"><p>please specify:</p></label>
   <input type = "text" placeholder = "Comment here"   id = "name" required/>
   <br>
   <p>What can I do better to improve?</p>
@@ -66,8 +66,8 @@
   <button id="submit">Submit</button>
 </form>
 </div>
-  
-  
+
+
 
 </body>
 
