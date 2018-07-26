@@ -1,0 +1,50 @@
+body {
+  background-color: #ccf2ff !important;
+  padding: 40px !important;
+}
+
+hr {
+  border-width: 3px !important;
+}
+
+input {
+  font-weight: 200;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  margin: 0 10px;
+}
+
+textarea {
+max-width: 100%;}
+
+#container{
+  background-color: white;
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Bitter", serif !important;
+}
+
+#description {
+  font-size: 22px !important;
+  margin-bottom: 20px !important;
+  font-weight: 300 !important;
+}
+
+p {
+  font-weight: 200;
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+
+.option {
+  font-weight: 200;
+}
+
+.checkbox {
+  font-weight: 200;
+  display: inline;
+}
